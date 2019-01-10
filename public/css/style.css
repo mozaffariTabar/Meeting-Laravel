@@ -1,0 +1,112 @@
+html,
+body {
+    background-color: #fbfbfb;
+    color: #636b6f;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+td {
+    width: 50%;
+}
+
+input[type=submit],
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #ccc;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #ccc;
+}
+
+.form-control::-moz-placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #eae7e7, inset 0 0 30px 10px #fff;
+}
+
+.width {
+    width: 60%;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    color: #929292;
+    background-color: #fbfbfb;
+    border: solid #00AEFC;
+    border-width: 1px 1px 4px 1px;
+    border-radius: 10px;
+}
+
+p.warning {
+    color: #f00;
+    margin: 5px 0;
+}
+
+.table-kipper {
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 250px;
+}
+
+.red {
+    color: #f00;
+}
+
+.green {
+    color: #008000;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #eae7e7, inset 0 0 30px 10px #fff;
+    cursor: pointer;
+}
+
+.profile input {
+    display: none;
+}
